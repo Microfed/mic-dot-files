@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/microfed/sources/labs/mifi/cards/src'
+let g:netrw_dirhist_2='/usr/share/vim/vim73'
+let g:netrw_dirhist_3='/home/microfed/sources/frontend-js-app/src/js/rf/model/base'
+let g:netrw_dirhist_4='/home/microfed/sources/frontend-js-app/src/js/rf/model'
+let g:netrw_dirhist_5='/home/microfed/sources/frontend-market/src/js/rf/config/templates'
+let g:netrw_dirhist_6='/home/microfed/sources/frontend-js-app/src/js/rf/config/templates'
+let g:netrw_dirhist_7='/home/microfed/sources/frontend-market/src/ajax'

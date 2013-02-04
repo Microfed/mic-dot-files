@@ -1,0 +1,60 @@
+[gui]
+	fontui = -family Consolas -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Consolas -size 9 -weight normal -slant roman -underline 0 -overstrike 0
+	encoding = utf-8
+[user]
+	name = Microfed
+	email = microfed@gmail.com
+	user = Microfed
+[alias]
+  	go = checkout
+	c = commit
+	d = diff
+	a = add
+	aa = add .
+  	st = status
+  	br = branch
+	bs = bisect start
+	bb = bisect bad
+	bg = bisect good
+	pl = pull
+	ph = push
+	hist = log --pretty=format:\"%Cgreen%h%Creset %ad | %s%d [%Cred%an%Creset]\" --graph --date=relative
+	histbw = log --pretty=format:\"%ad | %s%d [%an]\" --graph --date=relative
+	type = cat-file -t
+	dump = cat-file -p
+	fs = flow feature start
+	ff = flow feature finish
+	fp = flow feature publish
+	fgo = flow feature checkout
+	fm = merge --no-ff
+	r = rebase
+	rc = rebase --continue
+	rs = rebase --skip
+	ra = rebase --abort
+
+	# stolen from Gary Bernhardt config
+    # Fancy logging.
+    #   h = head
+    #   hp = head with patch
+    #   r = recent commits, only current branch
+    #   ra = recent commits, all reachable refs
+    #   l = all commits, only current branch
+    #   la = all commits, all reachable refs
+    head = !git l -1
+    h = !git head
+    hp = "!. ~/.githelpers && show_git_head"
+    lr = !git l -30
+    lra = !git lr --all
+    l = "!. ~/.githelpers && pretty_git_log"
+    la = !git l --all
+[color]
+[color]
+	ui = true
+[merge]
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[github]
+	user = microfed
