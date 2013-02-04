@@ -1,0 +1,10 @@
+$ ssh -vvv 192.168.10.2 -p 2202
+OpenSSH_5.9p1 Debian-5ubuntu1, OpenSSL 1.0.1 14 Mar 2012
+debug1: Reading configuration data /home/microfed/.ssh/config
+debug1: Reading configuration data /etc/ssh/ssh_config
+debug1: /etc/ssh/ssh_config line 19: Applying options for *
+debug2: ssh_connect: needpriv 0
+debug1: Connecting to 192.168.10.2 [192.168.10.2] port 2202.
+debug1: connect to address 192.168.10.2 port 2202: Connection timed out
+ssh: connect to host 192.168.10.2 port 2202: Connection timed out
+
